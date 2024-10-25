@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;}
+header, nav, main, footer {
+	width: 960px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;}
+header {
+	background-color: #1c5560;
+	color: #fbffed;
+	text-align: center;}
+nav {
+	height: 50px;
+	background-color: #79ae92;
+	color: #fbffcd;}
+nav ul{
+	text-align: center;}
+nav ul li {
+	display: inline-block;
+	width: 80px;
+	background-color: #fbffcd;
+	color: #0001/36;
+	padding: 10px;}
+nav li:hover, nav li a:hover{
+				background-color: #001f36;
+				color: #EEEEEE
+					}
+main{
+	height: auto;
+	background-color: #001f36;
+	color: #fbffcd;}
+main nav{
+  width:600px;
+}
+section{
+	width: 800px;
+	height: 300px;
+	background-color: #1c5560;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;}
+footer {
+	height: 30px;
+	background-color: #000000;
+	color: #fbffcd;
+	text-align: center;}
+img{
+	display: block;
+	width:  200px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;}
+h2{
+	margin-bottom: 20px}
+table{
+	color: #fbffcd;
+	margin: 0 auto;
+	padding: 10px;
+	border: 3px solid blue;
+	border-collapse: collapse;
+}
+#tabla1{
+	width: 700px;
+}
+#tabla1 th{
+	background-color: #79ae92;
+	height: 2px;
+	border: 3px solid #79ae92;
+}
+#tabla1 tbody{
+	background-color: #fbffcd;
+		color: #000000;
+}
+#tabla1 td{
+	padding: auto;
+	text-align: center;
+	height: 1px;
+	
+}
+#tabla1 td, tabla1 th{
+	border-width: 5px;
+	border-style: solid;
+	border-color: #79ae92;
+}
+#tabla2{
+	width: 800px;
+}
+#tabla2 th{
+	background-color: #79ae92;
+	height: 2px;
+	border: 3px solid #fbffcd;
+}
+#tabla2 tr:nth-child(even){
+	background-color: cadetblue;
+	border: 3px solid #fbffcd;
+}
+#tabla2 tbody tr:nth-child(odd){
+	background-color:darkblue;
+	border: 3px solid #fbffcd;
+	
+}
+#tabla3{
+	
+}
+#tabla3 tr:hover{
+	background-color: cornflowerblue;
+	border: 3px solid #79ae92;
+}
+#tabla3 th{
+	background-color: darkblue;
+	height: 2px;
+	border: 3px solid #79ae92;
+}
+#tabla3 tbody{
+	background-color: #fbffcd;
+		color: #000000;
+}
+#tabla3 td{
+	padding: 1px;
+	text-align: center;
+	height: 1px;
+	
+}
+#tabla3 td, tabla1 th{
+	border-width: 5px;
+	border-style: solid;
+	border-color: #79ae92;
+}
+#familia2{
+	width: 170px;
+	height: auto;
+	float: right;
+	padding-left: 20px;
+}
+#familia{
+	width: 180px;
+	height: auto;
+	float: left;
+	padding-right: 20px;}
+#corazon{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#importante{
+	text-align: center;
+}
+#importante img{
+	width: 15%;
+	height: auto;
+	margin: 5px;
+	padding: 2px;
+	display: inline-block;
+}
+filtro1{filter: brightness(200%);}
+filtro2{filter: contrast(50%);}
+filtro3{filter: grayscale(100%);}
+filtro4{filter: sepia(100%);}
+filtro5{filter: saturate(150%);}
+filtro6{filter: opacity(40%);}
+filtro7{filter: invert(100%);}
+filtro8{ filter: blur(5px);}
+filtro9{ filter: drop-shadow (10px 10px 5px gray);}
+filtro10{ filter: contrast (159) drop-shadow(20px 20px 5px red)}#form1 , #form2{
+    width: 30%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #79AE92;
+}
+label  {
+    color: #001F36;
+    font-weight: bolder;
+}
+#form1 #submit {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #001F36;
+    padding: 10px;
+    color: #FBFFCD;
+}
+#form1 #usuario {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #FBFFCD;
+    color: #001F36;
+}
+#form1 #password {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #FBFFCD;
+    color: #001F36;
+}
+#nombre {
+}
+#apellidos {
+}
+#edad {
+}
+#form2 label  {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#form2 #select {
+    width: 100%;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+#form2 #edad {
+    margin-bottom: 5px;
+    width: 30%;
+}

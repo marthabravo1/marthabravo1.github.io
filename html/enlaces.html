@@ -1,0 +1,157 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaz Grafica del Usuario
+Creador: Martha Guadalupe Bravo Barragán
+-->
+<html>
+    <head>
+        <title>Enlaces en html</title> 
+		<style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header, nav, main, footer {
+                width: 960px;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+				padding: 30px;
+            }
+            header {
+                background-color: #201E43;
+                height: 150px;
+            }
+            nav {
+                height: 50px;
+                background-color: #134870;
+            }
+			ul{
+				list-style-type: none;
+				text-align: center;
+				}
+			li{
+				display: inline-block;
+				margin-left: 10px;
+				margin-right: 10px;
+				}
+            main {
+                height: auto;
+                background-color: #EEEEEE;
+            }
+			main nav{
+				width:600px;
+			}
+            footer {
+                height: 50px;
+                background-color: #201843;
+            }
+            section{
+                width: 800px;
+                background-color: #508c9b;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+			}
+			h2{
+				margin-bottom:30px;
+				}
+			h1,h5{
+				text-align: center;
+				padding: 30px;
+				}
+			p {
+				margin-bottom: 20px;
+				}
+			p a:visited{
+				color: #201843;
+			}
+			p a:link{
+				color: #EEEEEE;
+				font-weight: bolder;
+			}
+			p a:active{
+				color: orange;
+			}
+			ul li {
+				width: 70px;
+				background-color: #EEEEEE;
+				color: #201843;
+				padding: 10px;
+				border-radius: 10px;
+				text-decoration: none;
+			}
+			ul li a{
+				text-decoration: none;
+				color: 201E43;
+			}
+			ul a:link, ul a:visited{
+				color: #201E43;
+			}
+			ul a:hover{
+				color: #508c9b; 
+				font-weight: bolder;
+				}
+			/*nav ul li a:link, nav ul li a:visited{
+				color: #508c9b;
+				font-weight: bold;
+			}
+			nav ul li a:hover{
+			color:#201E43
+			}
+*/
+			}
+			nav li:hover, nav li a:hover{
+				background-color: #201E43;
+				color: #EEEEEE
+					}
+        </style>
+    </head>
+            <body>
+                <header>
+					<h1>ENLACES</h1>
+                    </header>
+                    <nav>
+						<ul>
+							<li><a href="../index.html">Formatos de texto</a></li>
+							<li><a href="listas.html">Listas</a></li>
+							<li><a href="enlaces.html">Enlaces</a></li>
+							<li><a href="tablas.html">Tablas</a></li>
+							<li><a href="imagenes.html">Imagenes</a></li>
+							<li><a href="audio.html">Audio</a></li>
+							<li><a href="video.html">Video</a></li>
+							<li><a href="formularios.html">Formularios</a></li>			
+						</ul>
+                    </nav>
+                    <main>
+                        <section>
+                            <h2 id="enlaces_externos">Mi carrera</h2>
+                            <p>Actualmente estoy estudiando Diseño Gráfico en la Benemérita Universidad Autónoma de Puebla <a href="http://www.buap.mx">BUAP</a> actualmente estoy cursando el ultimo semestre de mi carrera para poder graduarme, aunque entre en muchas dudas, ya que en bachillerato por un profesor tuve dudas sobre la carrera al ver como nos enseñaba el diseño gráfico en la capacitación, decidí investigar por mi parte más a fondo la carrera <a href="https://arquitectura.buap.mx/content/licenciatura-en-diseño-gráfico">Pagina con información de la carrera</a> </p>
+                        </section>
+                        <section>
+                            <h2 id="enlaces_internos">Un poco de mi</h2>
+                            <p> <a href="../mi_primera_pagina_web.html" target="_blank" blank>Mi primera página</a> Cuando decidí hacer el examen para la universidad, decidí revisar el perfil de ingreso que necesitaba, para ver si cumplia con los requisitos necesarios <a href="../diseñografico.pdf" download> Perfil de ingreso</a></p> 
+							<p>Al ver todo el campo de trabajo que me proporcionaria la carrera, las asignaturas que veria a lo largo de ella, fue lo que me hizo quererme decidir firmentente por la carrera como habia decidido unos años atrás, despues de mis dudas por el bachillerato </p> 
+                        </section>
+						 <section>
+							  <h2 id="enlaces_pagina">Enlaces  de página</h2>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada sem ac ornare porttitor. Donec faucibus, metus ut pretium pretium, tellus orci sodales mauris, sit amet porttitor risus arcu sit amet leo. Vivamus maximus non nibh vitae interdum. Mauris tincidunt arcu et odio commodo gravida sit amet a augue. Morbi lacus orci, lobortis sed pretium nec, ullamcorper ut mauris. Ut porta mi in justo blandit, tincidunt ornare justo imperdiet. Morbi pretium efficitur pellentesque. Nunc turpis eros, consequat non posuere ut.</p> 
+							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan risus vel pharetra suscipit. Cras id pharetra turpis. Sed elit leo, hendrerit eu interdum eget, eleifend non tellus. Nunc laoreet eros erat, a ullamcorper turpis fermentum vel. Nunc tempus facilisis turpis, a facilisis metus rutrum nec. Ut luctus fermentum massa.</p> 
+							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus convallis tincidunt. Sed bibendum ante orci, at pharetra nibh lobortis quis. Nullam nisi dui, condimentum vitae elementum sit amet, fringilla id arcu. Duis molestie ex a nibh varius viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</p> 
+							 </section>
+						<nav>
+						<ul>
+							<li><a href="#enlaces_externos"> Enlaces externos</a></li>
+							<li><a href="#enlaces_internos">Enlaces internos</a></li>
+							<li><a href="#enlaces_pagina">Enlaces de página</a></li>
+							</ul>
+							</nav>
+                    </main>
+                    <footer>
+						<h5>Elaborado por Martha Guadalupe Bravo Barragán</h5>
+                    </footer>
+            </body>
+</html>
